@@ -181,17 +181,17 @@ The listener records GET and POST requests received during the assessment.
 
 ### <img src="./assets/icons/reporting.svg" alt="" width="28" height="28" align="absmiddle"> Reporting
 The tool generates a Markdown assessment containing:
-<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Target information.
-<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Assessment time.
-<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Scan duration.
-<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> URLs mapped.
-<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Forms discovered.
-<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Successful exploitation count.
-<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Listener activity.
-<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Exploitation evidence.
-<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Impact descriptions.
-<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Remediation priorities.
-<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Scan metrics.
+- Target information.
+- Assessment time.
+- Scan duration.
+- URLs mapped.
+- Forms discovered.
+- Successful exploitation count.
+- Listener activity.
+- Exploitation evidence.
+- Impact descriptions.
+- Remediation priorities.
+- Scan metrics.
 
 ### <img src="./assets/icons/config.svg" alt="" width="28" height="28" align="absmiddle"> Logging
 Operational events are written to:
