@@ -18,7 +18,7 @@
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Overview
+## <img src="./assets/icons/target.svg" alt="" width="28" height="28" align="absmiddle"> Overview
 
 **XSS Web Scanner** is a Python-based web application security testing tool designed to automate a multi-stage XSS assessment workflow.
 
@@ -69,7 +69,7 @@ The implementation combines:
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Architecture
+## <img src="./assets/icons/architecture.svg" alt="" width="28" height="28" align="absmiddle"> Architecture
 
 ```text
                     ┌──────────────────────────┐
@@ -130,16 +130,16 @@ The implementation combines:
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Features
+## <img src="./assets/icons/features.svg" alt="" width="28" height="28" align="absmiddle"> Features
 
-### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Target Acquisition
+### <img src="./assets/icons/target.svg" alt="" width="28" height="28" align="absmiddle"> Target Acquisition
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Interactive target URL input.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Explicit authorization confirmation before testing.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> HTTP/HTTPS validation.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Basic domain-format validation.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Initial accessibility check.
 
-### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Web Crawling
+### <img src="./assets/icons/crawl.svg" alt="" width="28" height="28" align="absmiddle"> Web Crawling
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Selenium-powered browser rendering.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Same-domain URL discovery.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Queue-based crawling.
@@ -147,7 +147,7 @@ The implementation combines:
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Dynamic JavaScript content loading.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Form discovery during crawling.
 
-### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> XSS Testing
+### <img src="./assets/icons/xss.svg" alt="" width="28" height="28" align="absmiddle"> XSS Testing
 The scanner tests discovered attack surfaces through:
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> URL query parameters.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Form inputs.
@@ -156,14 +156,14 @@ The scanner tests discovered attack surfaces through:
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Reflection checks.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Local listener observations.
 
-### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Validation
+### <img src="./assets/icons/validation.svg" alt="" width="28" height="28" align="absmiddle"> Validation
 The implementation uses several indicators:
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Browser alert detection.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Payload reflection in page source.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Script-environment checks.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Data received by the local listener.
 
-### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Evidence Collection
+### <img src="./assets/icons/evidence.svg" alt="" width="28" height="28" align="absmiddle"> Evidence Collection
 For confirmed results, the scanner records information including:
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Timestamp.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Current URL.
@@ -172,14 +172,14 @@ For confirmed results, the scanner records information including:
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Cookie accessibility result.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> A page-source snapshot.
 
-### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Local Listener
+### <img src="./assets/icons/network.svg" alt="" width="28" height="28" align="absmiddle"> Local Listener
 A local HTTP server listens on:
 
 `http://localhost:8888`
 
 The listener records GET and POST requests received during the assessment.
 
-### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Reporting
+### <img src="./assets/icons/reporting.svg" alt="" width="28" height="28" align="absmiddle"> Reporting
 The tool generates a Markdown assessment containing:
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Target information.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Assessment time.
@@ -193,7 +193,7 @@ The tool generates a Markdown assessment containing:
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Remediation priorities.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Scan metrics.
 
-### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Logging
+### <img src="./assets/icons/config.svg" alt="" width="28" height="28" align="absmiddle"> Logging
 Operational events are written to:
 `libertas_operation.log`
 
@@ -201,7 +201,7 @@ The implementation uses Python's `logging` module with both file and console han
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> End-to-End Workflow
+## <img src="./assets/icons/architecture.svg" alt="" width="28" height="28" align="absmiddle"> End-to-End Workflow
 
 The complete execution flow is:
 
@@ -534,7 +534,7 @@ This classification is generated by the implementation and should be treated as 
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Complete Function Reference
+## <img src="./assets/icons/reporting.svg" alt="" width="28" height="28" align="absmiddle"> Complete Function Reference
 
 | Function / Class | Purpose |
 |---|---|
@@ -563,7 +563,7 @@ This classification is generated by the implementation and should be treated as 
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Configuration
+## <img src="./assets/icons/config.svg" alt="" width="28" height="28" align="absmiddle"> Configuration
 
 The source exposes several global configuration values:
 
@@ -579,7 +579,7 @@ The repository intentionally preserves these values exactly as implemented in th
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Requirements
+## <img src="./assets/icons/requirements.svg" alt="" width="28" height="28" align="absmiddle"> Requirements
 
 The source imports these third-party Python packages:
 
@@ -591,7 +591,7 @@ It also requires a working **Firefox browser** and a compatible Selenium WebDriv
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Installation
+## <img src="./assets/icons/install.svg" alt="" width="28" height="28" align="absmiddle"> Installation
 
 ### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> 1. Clone the repository
 
@@ -664,7 +664,7 @@ Use only against applications you own or are explicitly authorized to test.
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Generated Files
+## <img src="./assets/icons/evidence.svg" alt="" width="28" height="28" align="absmiddle"> Generated Files
 
 During execution, the source can generate files such as:
 
@@ -677,7 +677,7 @@ These runtime artifacts are ignored by the repository's `.gitignore` where appro
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Limitations & Implementation Notes
+## <img src="./assets/icons/limits.svg" alt="" width="28" height="28" align="absmiddle"> Limitations & Implementation Notes
 
 This documentation describes the uploaded implementation as it currently exists; the source has **not** been modified as part of the repository setup.
 
@@ -720,7 +720,7 @@ The objective is to turn a target URL into a structured assessment containing di
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Legal & Security Notice
+## <img src="./assets/icons/legal.svg" alt="" width="28" height="28" align="absmiddle"> Legal & Security Notice
 
 **XSS Web Scanner is intended for authorized security testing, research, and educational use only.**
 
@@ -737,7 +737,7 @@ The repository author and contributors are not responsible for misuse of this so
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Contributing
+## <img src="./assets/icons/features.svg" alt="" width="28" height="28" align="absmiddle"> Contributing
 
 Contributions are welcome for documentation, testing, bug reports, and safe improvements.
 
@@ -750,7 +750,7 @@ When submitting changes:
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> License
+## <img src="./assets/icons/license.svg" alt="" width="28" height="28" align="absmiddle"> License
 
 This project is released under the **MIT License**. See [LICENSE](LICENSE) for the complete license text.
 
