@@ -1,4 +1,4 @@
-# 🛡️ XSS Web Scanner
+# <img src="./assets/icons/shield.svg" alt="" width="32" height="32" align="absmiddle"> XSS Web Scanner
 
 <p align="center">
   <img src="assets/banner.png" alt="XSS Web Scanner Banner" width="100%">
