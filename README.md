@@ -1,7 +1,7 @@
 # 🛡️ XSS Web Scanner
 
 <p align="center">
-  <img src="assets/banner.svg" alt="XSS Web Scanner Banner" width="100%">
+  <img src="assets/banner.png" alt="XSS Web Scanner Banner" width="100%">
 </p>
 
 <p align="center">
