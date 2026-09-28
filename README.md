@@ -9,11 +9,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python_3.x-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></a>
-  <a href="https://www.selenium.dev/"><img src="https://img.shields.io/badge/Selenium-Web_Automation-43B02A?style=flat-square&logo=selenium&logoColor=white" alt="Selenium"></a>
-  <a href="https://www.crummy.com/software/BeautifulSoup/"><img src="https://img.shields.io/badge/BeautifulSoup-HTML_Parsing-4B8BBE?style=flat-square" alt="BeautifulSoup"></a>
-  <a href="https://owasp.org/www-community/attacks/xss/"><img src="https://img.shields.io/badge/Security-XSS-8B0000?style=flat-square&logo=owasp&logoColor=white" alt="XSS"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square&logo=opensourceinitiative&logoColor=black" alt="MIT License"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.x-3776AB?labelColor=555&logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://www.selenium.dev/"><img src="https://img.shields.io/badge/Selenium-Web_Automation-43B02A?labelColor=555&logo=selenium&logoColor=white" alt="Selenium"></a>
+  <a href="https://www.crummy.com/software/BeautifulSoup/"><img src="https://img.shields.io/badge/BeautifulSoup-HTML_Parsing-4B8BBE?labelColor=555" alt="BeautifulSoup"></a>
+  <a href="https://owasp.org/www-community/attacks/xss/"><img src="https://img.shields.io/badge/Security-XSS-8B0000?labelColor=555&logo=owasp&logoColor=white" alt="XSS"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?labelColor=555&logo=opensourceinitiative&logoColor=black" alt="MIT License"></a>
 </p>
 
 ---
