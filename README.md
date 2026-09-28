@@ -18,7 +18,7 @@
 
 ---
 
-## 📌 Overview
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Overview
 
 **XSS Web Scanner** is a Python-based web application security testing tool designed to automate a multi-stage XSS assessment workflow.
 
@@ -44,7 +44,7 @@ The implementation combines:
 
 ---
 
-## 🧭 Table of Contents
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Table of Contents
 
 - [Architecture](#-architecture)
 - [Features](#-features)
@@ -69,7 +69,7 @@ The implementation combines:
 
 ---
 
-## 🧩 Architecture
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Architecture
 
 ```text
                     ┌──────────────────────────┐
@@ -130,70 +130,70 @@ The implementation combines:
 
 ---
 
-## 🚀 Features
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Features
 
-### 🎯 Target Acquisition
-- Interactive target URL input.
-- Explicit authorization confirmation before testing.
-- HTTP/HTTPS validation.
-- Basic domain-format validation.
-- Initial accessibility check.
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Target Acquisition
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Interactive target URL input.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Explicit authorization confirmation before testing.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> HTTP/HTTPS validation.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Basic domain-format validation.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Initial accessibility check.
 
-### 🕷️ Web Crawling
-- Selenium-powered browser rendering.
-- Same-domain URL discovery.
-- Queue-based crawling.
-- Configurable maximum depth.
-- Dynamic JavaScript content loading.
-- Form discovery during crawling.
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Web Crawling
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Selenium-powered browser rendering.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Same-domain URL discovery.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Queue-based crawling.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Configurable maximum depth.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Dynamic JavaScript content loading.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Form discovery during crawling.
 
-### 🧪 XSS Testing
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> XSS Testing
 The scanner tests discovered attack surfaces through:
-- URL query parameters.
-- Form inputs.
-- Multiple payload categories already defined in the source.
-- Browser-based execution checks.
-- Reflection checks.
-- Local listener observations.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> URL query parameters.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Form inputs.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Multiple payload categories already defined in the source.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Browser-based execution checks.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Reflection checks.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Local listener observations.
 
-### 🔎 Validation
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Validation
 The implementation uses several indicators:
-- Browser alert detection.
-- Payload reflection in page source.
-- Script-environment checks.
-- Data received by the local listener.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Browser alert detection.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Payload reflection in page source.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Script-environment checks.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Data received by the local listener.
 
-### 📸 Evidence Collection
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Evidence Collection
 For confirmed results, the scanner records information including:
-- Timestamp.
-- Current URL.
-- Page title.
-- Deployed payload.
-- Cookie accessibility result.
-- A page-source snapshot.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Timestamp.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Current URL.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Page title.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Deployed payload.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Cookie accessibility result.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> A page-source snapshot.
 
-### 📡 Local Listener
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Local Listener
 A local HTTP server listens on:
 
 `http://localhost:8888`
 
 The listener records GET and POST requests received during the assessment.
 
-### 📝 Reporting
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Reporting
 The tool generates a Markdown assessment containing:
-- Target information.
-- Assessment time.
-- Scan duration.
-- URLs mapped.
-- Forms discovered.
-- Successful exploitation count.
-- Listener activity.
-- Exploitation evidence.
-- Impact descriptions.
-- Remediation priorities.
-- Scan metrics.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Target information.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Assessment time.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Scan duration.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> URLs mapped.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Forms discovered.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Successful exploitation count.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Listener activity.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Exploitation evidence.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Impact descriptions.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Remediation priorities.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> Scan metrics.
 
-### 📋 Logging
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Logging
 Operational events are written to:
 `libertas_operation.log`
 
@@ -201,7 +201,7 @@ The implementation uses Python's `logging` module with both file and console han
 
 ---
 
-## 🔄 End-to-End Workflow
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> End-to-End Workflow
 
 The complete execution flow is:
 
@@ -255,9 +255,9 @@ Finish
 
 ---
 
-## 1. 🎯 Phase 0 — Target Acquisition
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> 1. Phase 0 — Target Acquisition
 
-### `acquire_target()`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `acquire_target()`
 
 This function is the entry point for the assessment.
 
@@ -270,7 +270,7 @@ It:
 5. Returns the validated target URL.
 6. Aborts if authorization or target validation fails.
 
-### `validate_target(url)`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `validate_target(url)`
 
 Performs the initial target checks:
 
@@ -283,9 +283,9 @@ Performs the initial target checks:
 
 ---
 
-## 2. 🗺️ Phase 1 — Reconnaissance
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> 2. Phase 1 — Reconnaissance
 
-### `init_driver()`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `init_driver()`
 
 Creates the Selenium Firefox WebDriver and configures:
 
@@ -296,7 +296,7 @@ Creates the Selenium Firefox WebDriver and configures:
 
 The browser is used for dynamic page rendering and browser-based testing.
 
-### `crawl_site(seed_url, max_depth)`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `crawl_site(seed_url, max_depth)`
 
 Builds a map of the target application.
 
@@ -315,14 +315,14 @@ For every discovered URL it:
 
 The default maximum depth is **5**.
 
-### `is_valid_url(url)`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `is_valid_url(url)`
 
 Checks whether a discovered URL:
 
 - Uses HTTP or HTTPS.
 - Belongs to the same network location as `TARGET_URL`.
 
-### `extract_forms(url, driver)`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `extract_forms(url, driver)`
 
 Enumerates forms on a page and records:
 
@@ -343,9 +343,9 @@ It searches for:
 
 ---
 
-## 3. 🧪 Phase 2 — XSS Testing
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> 3. Phase 2 — XSS Testing
 
-### `comprehensive_xss_testing()`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `comprehensive_xss_testing()`
 
 Coordinates the testing stage.
 
@@ -355,7 +355,7 @@ It performs:
 2. Form-input testing across discovered forms.
 3. Advanced attack-chain execution for results marked as successful.
 
-### `assault_url_parameters(url)`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `assault_url_parameters(url)`
 
 Tests query-string parameters.
 
@@ -371,7 +371,7 @@ The function:
 8. Records the vulnerability details.
 9. Logs the result.
 
-### `assault_form_inputs(form)`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `assault_form_inputs(form)`
 
 Tests discovered form inputs.
 
@@ -388,9 +388,9 @@ The function:
 
 ---
 
-## 4. 🔬 Validation & Evidence
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> 4. Validation & Evidence
 
-### `validate_exploitation_success(driver, payload)`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `validate_exploitation_success(driver, payload)`
 
 Uses several validation indicators.
 
@@ -410,7 +410,7 @@ The implementation executes a browser-side validation script to inspect the page
 
 The function also checks whether the local listener has received GET or POST data.
 
-### `capture_exploitation_evidence(driver, payload)`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `capture_exploitation_evidence(driver, payload)`
 
 Creates an evidence dictionary containing:
 
@@ -423,9 +423,9 @@ Creates an evidence dictionary containing:
 
 ---
 
-## 5. ⚠️ Advanced Attack Chains
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> 5. Advanced Attack Chains
 
-### `execute_advanced_attack_chains(vulnerable_url, successful_payload)`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `execute_advanced_attack_chains(vulnerable_url, successful_payload)`
 
 When a result is marked as successfully exploitable, the implementation proceeds to additional browser-side attack-chain tests.
 
@@ -448,9 +448,9 @@ These chains are part of the uploaded source and are documented here without mod
 
 ---
 
-## 6. 📡 Local Listener
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> 6. Local Listener
 
-### `ExploitationHandler`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `ExploitationHandler`
 
 A custom `BaseHTTPRequestHandler` implementation used by the local listener.
 
@@ -475,7 +475,7 @@ Reads incoming POST data and records:
 
 Redirects HTTP server logging into the Python logging system.
 
-### `start_exploitation_listener()`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `start_exploitation_listener()`
 
 Starts an HTTP server on:
 
@@ -487,9 +487,9 @@ The server runs in a daemon thread and remains active during the assessment.
 
 ---
 
-## 7. 📝 Reporting
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> 7. Reporting
 
-### `generate_comprehensive_report()`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `generate_comprehensive_report()`
 
 Creates a Markdown report containing:
 
@@ -514,9 +514,9 @@ libertas_assessment_<target>_<timestamp>.md
 
 ---
 
-## 8. 💥 Impact Analysis
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> 8. Impact Analysis
 
-### `determine_exploitation_impact(exploit)`
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> `determine_exploitation_impact(exploit)`
 
 Classifies the reported impact based on keywords found in the tested payload.
 
@@ -534,7 +534,7 @@ This classification is generated by the implementation and should be treated as 
 
 ---
 
-## 📊 Complete Function Reference
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Complete Function Reference
 
 | Function / Class | Purpose |
 |---|---|
@@ -563,7 +563,7 @@ This classification is generated by the implementation and should be treated as 
 
 ---
 
-## ⚙️ Configuration
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Configuration
 
 The source exposes several global configuration values:
 
@@ -579,7 +579,7 @@ The repository intentionally preserves these values exactly as implemented in th
 
 ---
 
-## 📦 Requirements
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Requirements
 
 The source imports these third-party Python packages:
 
@@ -591,16 +591,16 @@ It also requires a working **Firefox browser** and a compatible Selenium WebDriv
 
 ---
 
-## 🛠️ Installation
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Installation
 
-### 1. Clone the repository
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> 1. Clone the repository
 
 ```bash
 git clone https://github.com/eldqyqy2007/xss-web-scanner.git
 cd xss-web-scanner
 ```
 
-### 2. Create a virtual environment
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> 2. Create a virtual environment
 
 ```bash
 python -m venv .venv
@@ -618,13 +618,13 @@ On Windows:
 .venv\Scripts\activate
 ```
 
-### 3. Install dependencies
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Ensure Firefox is installed
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> 4. Ensure Firefox is installed
 
 The implementation initializes:
 
@@ -636,7 +636,7 @@ A compatible WebDriver setup is required for execution.
 
 ---
 
-## ▶️ Usage
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> ▶ Usage
 
 Run the scanner with:
 
@@ -664,7 +664,7 @@ Use only against applications you own or are explicitly authorized to test.
 
 ---
 
-## 📁 Generated Files
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Generated Files
 
 During execution, the source can generate files such as:
 
@@ -677,7 +677,7 @@ These runtime artifacts are ignored by the repository's `.gitignore` where appro
 
 ---
 
-## ⚠️ Limitations & Implementation Notes
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Limitations & Implementation Notes
 
 This documentation describes the uploaded implementation as it currently exists; the source has **not** been modified as part of the repository setup.
 
@@ -694,7 +694,7 @@ Important implementation details:
 
 ---
 
-## 🧪 Testing Philosophy
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Testing Philosophy
 
 The implementation follows a staged security-testing workflow:
 
@@ -720,7 +720,7 @@ The objective is to turn a target URL into a structured assessment containing di
 
 ---
 
-## 🔐 Legal & Security Notice
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Legal & Security Notice
 
 **XSS Web Scanner is intended for authorized security testing, research, and educational use only.**
 
@@ -737,7 +737,7 @@ The repository author and contributors are not responsible for misuse of this so
 
 ---
 
-## 🤝 Contributing
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Contributing
 
 Contributions are welcome for documentation, testing, bug reports, and safe improvements.
 
@@ -750,7 +750,7 @@ When submitting changes:
 
 ---
 
-## 📜 License
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> License
 
 This project is released under the **MIT License**. See [LICENSE](LICENSE) for the complete license text.
 
