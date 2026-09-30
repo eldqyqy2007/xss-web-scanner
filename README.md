@@ -720,6 +720,24 @@ The objective is to turn a target URL into a structured assessment containing di
 
 ---
 
+## <img src="./assets/icons/section.svg" alt="" width="24" height="24" align="absmiddle"> Security Research & Educational Disclaimer
+
+This project is developed strictly for **educational purposes, security research, and authorized security testing**.
+
+The tool is intended to help security researchers, penetration testers, and students understand and identify Cross-Site Scripting (XSS) vulnerabilities in environments they are explicitly authorized to assess.
+
+### Responsible Use
+
+- Only use this tool against systems, applications, and environments for which you have **explicit authorization** to perform security testing.
+- Do not use this project to access, monitor, collect, modify, or exfiltrate data belonging to third parties without authorization.
+- Do not use this project to conduct attacks, compromise accounts, obtain credentials, or cause harm to systems or users.
+- The user is solely responsible for ensuring that their use of this project complies with all applicable laws, regulations, security policies, and terms of service.
+- The author does not authorize or encourage unauthorized access, abuse, credential theft, data exfiltration, or other malicious activity.
+
+By using this project, you acknowledge that you are responsible for obtaining appropriate authorization before conducting any security testing.
+
+---
+
 ## <img src="./assets/icons/legal.svg" alt="" width="24" height="24" align="absmiddle"> Legal & Security Notice
 
 **XSS Web Scanner is intended for authorized security testing, research, and educational use only.**
